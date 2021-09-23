@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <div id='god-form'>
+
+        <div id='title'> 
+
+            <div id='campus'>Campus Survey</div>
+            
+            <p id='description'>
+            
+            Tell us what features you want us to add!
+    
+            </p>
+        </div>
+    
+
+    
+        <style>
+
+            #god-form {
+
+                padding-top: 100px;
+            }
+
+            #title {
+
+                padding-bottom: 30px;
+            }
+    
+            #campus {
+    
+                font-size: 55px;
+                margin: auto;
+                width: 50%;
+                text-align: center;
+            }
+    
+            #description {
+                text-align: center;
+                font-size: 20px;
+                font-style: italic;
+            }
+
+            #form-space {
+                background-color: antiquewhite;
+                margin:auto;
+                width:60%;
+            }
+
+            .ask {
+
+                font-size: 23px;
+                width: 100%;
+            }
+
+            #info {
+
+                width: 70%;
+            }
+        </style>
+
+        <div id='form-space'>
+
+            <form id='survey-form'>
+
+                <div id='name'>
+
+                    <label for='name' id='name-label' class='ask'>
+        
+                        Name:
+            
+                    </label><br>
+            
+                    <input placeholder="Enter your First Name and Last Name here" type='text'>
+
+                </div>
+
+                <div id='email' class='ask'>
+
+                    <label for='email' id='email-label' class='ask'>
+            
+                        Email address:
+            
+                    </label><br>
+            
+                    <input placeholder='Enter your registered email address here' type='email'>
+
+                </div>
+
+                <div id='number' class='ask'>
+        
+                    <label for='number' id='number-label'>
+            
+                        Phone number:
+            
+                    </label><br>
+            
+                    <input id='number' placeholder='Enter your phone number here' type='number' min='01000000000' max='99999999999'>
+
+                </div>
+
+                <div id='dropdown' class='ask'>
+                    
+                    <label for='dropdown' id='dropdown-label'>
+            
+                        Which subscription do you use?
+            
+                    </label><br>
+            
+                    <select>
+            
+                        <option value='' disabled selected class='label'>
+            
+                            Choose your Campus subscription here
+            
+                        </option>
+            
+                        <option value='sub-premium' class='label'>
+            
+                            Campus Standard
+            
+                        </option>
+            
+                        <option value='sub-standard' class='label'>
+            
+                            Campus Premium
+            
+                        </option>
+            
+                    </select>
+            
+
+                </div>
+        
+
+                <div id='school-checkbox'>
+        
+                    <label for='checkbox' id='checkbox-label' class='ask'>
+        
+                        What school level are you at?
+            
+                    </label><br>
+                
+                    <input type='radio' name='checkbox' id='primary-school' value='primary'>
+        
+                    <label for='primary-school' class='label'>
+        
+                        Primary School
+        
+                    </label><br>
+        
+                    <input type='radio' name='checkbox' id='secondary-school' value='secondary'>
+        
+                    <label for='secondary-school' class='label'>
+        
+                        Secondary School
+        
+                    </label><br>
+        
+                    <input type='radio' name='checkbox' id='university' value='university'>
+        
+                    <label for='university' class='label'>
+        
+                        University
+        
+                    </label><br>
+        
+                 </div>
+        
+                 <div id='school-uses'>
+        
+                    <label for='check' id='check-label' class='ask'>
+                        
+                        What does your school use Campus for? (choose all that apply)
+            
+                    </label><br>
+                
+                    <input type='checkbox' name='check' id='video-check-option' value='video-classes'>
+        
+                    <label for='video' class='label'>
+        
+                        To host live classes
+        
+                    </label><br>
+        
+                    <input type='checkbox' name='check' id='connect-check-option' value='collaborate'>
+        
+                    <label for='connect-check-option' class='label'>
+        
+                        For student to collaborate in groups and get connect with their tutors
+        
+                    </label><br>
+        
+                    <input type='checkbox' name='check' id='website-hosting-service' value='website'>
+        
+                    <label for='website-hosting-service' class='label'>
+        
+                        To host the student web services
+        
+                    </label><br>
+        
+                 </div>
+
+                 <div id='tellusmore' class='ask'>
+
+                    <label for='info'>
+
+                        Any comments or suggestions?
+
+
+                    </label><br>
+
+                     <textarea id='info' name=more-info form='survey-form'>What would you like to be able to use Campus for? Tell us here.
+        
+                     </textarea>
+
+                </div>
+        
+
+        
+                 <input type='submit' value='submit'>
+            </form>
+    
+
+
+
+        </div>
+    
+        
+    </div>
+ 
+</html>
