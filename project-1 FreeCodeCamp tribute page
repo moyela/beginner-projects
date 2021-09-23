@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <div id='main'>
+
+        <title>
+            
+            Who was Mary Slessor? 
+        
+        </title>
+
+        <head>
+
+            <div id='title'>
+                <h1>
+                    Mary Slessor's enduring legacy.
+                </h1>
+                
+                <h5>
+                    How a missionary from Scotland gained respect in southern Nigeria.
+                </h5>
+            </div>
+
+        </head>
+
+            <style>
+                #title {
+                        margin:auto;
+                        width:60%;
+                        text-align: center;
+                        }
+
+                #img-div {
+                    margin:auto;
+                    width:100%;
+
+                }    
+                
+                #image {
+                display:block;
+                max-width: 90%;
+                margin:auto;
+                height:auto;
+                        }
+                
+                #img-caption {
+                    text-align: center;
+                }
+
+                ul {
+                    list-style-type: circle;
+                    padding: 30 0 30 0;
+                }
+
+                #tribute-info {
+                    margin:auto;
+                    width:80%
+                    text
+                    
+                }
+
+                #main {
+                    background-color: 51 51 51;
+                }
+
+            </style>
+
+            <div id='img-div'>
+            
+                <img id='image' class='responsive' src='sle.jpg' alt='Mary Slessor seated with four African children she cared for in the early 20th century.'>
+                
+                <div id='img-caption'>
+                    
+                    Mary Slessor with some of her adopted children. <em>Transcorp Hotels</em>
+                
+                </div>
+
+            </div>
+
+            <div id='tribute-info'>
+                <ul>
+                    <li>
+                        On 02 December 1848, Scottish missionary worker, Mary Slessor, was born in Aberdeen, Scotland.
+                    </li>
+                    <li>
+                        Slessor’s early life in Scotland was a difficult one, but she was inspired by her mother's faith and longed to follow in the footsteps of famous missionaries abroad.
+                    </li>
+                    <li>
+                        On 5 August 1876, at the age of 28, she set sail for Nigeria aboard the SS Ethiopia to become a missionary.
+                    </li>
+                    <li>
+                        At her posting in Calabar, Slessor immersed herself among the Okoyong and Efik people, learning local customs and the Efik language.
+                    </li>
+                    <li>
+                        She was chosen to preside over native courts in Okoyong and Ikot Obong, settling disputes, encouraging trade, and introducing Western education, later choosing to work in more remote parts of Calabar, which were considered too dangerous for missionaries.
+                    </li>
+                    <li> 
+                        Superstitions such as those relating to the birth of twins; usually resulting in both children being abandoned or killed, and the practice of human sacrifices after the death of elders; pained Slessor greatly. 
+                    </li>
+                    <li>
+                        She adopted children she found abandoned, sending out other missionaries to rescue, protect and raise them at a Mission House, and was a driving force behind the establishment of the Hope Waddell Training Institution in Calabar, during the late 1890s, which provided practical vocational training to Efiks.
+                    </li>
+                    <li>
+                        By the early 1900s, she was working to spread vaccinations for smallpox, but several bouts of malaria over the years had made her frail. 
+                    </li>
+                    <li>
+                        After a severe fever, she died at her remote missionary station near Use Ikot Oku in the Akwa Ibom region on 13 January 1915 and was given a state funeral by the British colonial government.
+                    </li>
+
+                    <h2>
+
+                            Learn more about Slessor's legacy <a id='tribute-link' target='_blank' href='https://www.republic.com.ng'>here.</a>
+
+                    </h2>
+                
+                </ul>
+
+            </div>
+
+    </div>
+</html>
