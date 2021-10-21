@@ -1,0 +1,104 @@
+<!doctype html>
+<link href='DRAFT-CODE.css' rel='stylesheet'>
+<html>
+
+    <style>
+        #counter {
+            font-size: 400px;
+        }
+
+
+    </style>
+
+    <span id='counter'>0</span>
+
+    <br>
+
+    <button type='button' onclick='count()'>INCREASE</button>
+    
+    <br>
+
+    <button type='button' onclick='minusCount()'>REDUCE</button>
+
+    <script>
+        
+        //let counterStr = document.getElementById('counter').innerHTML;
+
+        //let counterNum = parseInt(document.getElementById('counter').innerHTML, 10);
+
+        //alert(counterStr + 102);
+        //let talk = `lastCounterNum=${newNum}`
+        //alert(talk);
+
+        function count() {
+
+            let counterStr = document.getElementById('counter').innerHTML;
+
+            let counterNum = parseInt(document.getElementById('counter').innerHTML, 10);
+
+            //if (document.cookie[] > 0) {
+
+            //}
+
+            newNum = counterNum + 1;
+            document.getElementById('counter').innerHTML = newNum;
+
+            counterNum = newNum;
+
+            document.cookie = `lastCounterNum=${newNum}`;
+
+            changeGreen();
+
+            changeBlack();
+
+        }
+
+        function minusCount() {
+
+            let counterStr = document.getElementById('counter').innerHTML;
+
+            let counterNum = parseInt(document.getElementById('counter').innerHTML, 10);
+
+            newNum = counterNum - 1;
+
+            document.getElementById('counter').innerHTML = newNum;
+
+            counterNum = newNum;
+
+            document.cookie = `lastCounterNum=${newNum}`;
+
+            changeRed();
+
+            changeBlack();
+
+
+        }
+
+        function changeGreen() {
+
+            document.getElementById('counter').style.color = 'green';
+
+        }
+
+        function changeRed() {
+
+            document.getElementById('counter').style.color = 'red';
+
+        }
+
+        function changeBlack() {
+
+            function action() {
+
+                document.getElementById('counter').style.color = 'black';
+
+            }
+
+            window.setTimeout(action, 1000);
+        }
+
+
+        
+    </script>
+
+</html>
